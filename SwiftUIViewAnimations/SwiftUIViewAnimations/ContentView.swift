@@ -45,7 +45,7 @@ struct ContentView: View {
                 }
             }
             .onTapGesture {
-                withAnimation(.spring(response: 0.4, dampingFraction: 0.8)) {
+                withAnimation(.spring(response: 0.3, dampingFraction: 0.7)) {
                     self.isZoomed.toggle()
                 }
             }
